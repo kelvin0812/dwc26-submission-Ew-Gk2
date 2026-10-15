@@ -1,0 +1,20 @@
+# challenge data can't be shared, see TestCases/README.md
+TestCases/*
+!TestCases/README.md
+*.pptx
+
+# made by step 1
+data/
+
+# made by steps 2 and 4; not committed since the GP and PCA contain the challenge data
+models/
+
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
